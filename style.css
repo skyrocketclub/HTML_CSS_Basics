@@ -1,0 +1,60 @@
+/* global reset to do away with values that come by default*/
+* {
+  margin: 0;
+  padding: 0;
+  /* Ensures that your sizing remain as you want them */
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(201, 201, 137);
+  font-family: Arial;
+  font-size: 20px;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Selects all paragraphs which are classes irrespective of their class names */
+p {
+  margin-bottom: 20px;
+}
+/* Selecting and Editing based on the class name */
+.first {
+  color: red;
+}
+
+/* Selecting and editing based on ID */
+
+#your-name {
+  background-color: rgb(170, 170, 111);
+  border: 5px solid #444;
+  width: 400px;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+#microsoft {
+  width: 400px;
+}
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+a {
+  background-color: yellowgreen;
+}
+
+/* specifying the particular header to edit by specifying the ID */
+#your-name h2 {
+  color: olivedrab;
+}
